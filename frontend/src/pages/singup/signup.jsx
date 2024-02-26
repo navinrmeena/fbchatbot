@@ -1,7 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function SignUp() {
   return (
+    <div className="p-4 h-screen flex items-center justify-center">
     <section className="bg-white rounded-md">
       <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
         <h1 className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl">
@@ -83,16 +85,17 @@ function SignUp() {
           </button>
           <p className="text-sm font-light text-gray-500 dark:text-gray-400">
             Already have an account?{" "}
-            <a
-              href="#"
+            <Link
+              to="/"
               className="font-medium text-primary-600 hover:underline dark:text-primary-500"
             >
               Log in
-            </a>
+            </Link>
           </p>
         </form>
       </div>
     </section>
+    </div>
   );
 }
 
