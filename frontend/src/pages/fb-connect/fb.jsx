@@ -2,6 +2,7 @@ import React from 'react'
 
 function Fb() {
   return (
+    <div className="p-4 h-screen flex items-center justify-center">
     <section className= "bg-white rounded-xl ">
       {/* <div className="w-full bg-black rounded-lg shadow dark:border dark:border-gray-700 md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800"> */}
       <div className="p-6 space-y-4 md:space-y-6 sm:p-8 ">
@@ -21,6 +22,7 @@ function Fb() {
       </div>
       {/* </div> */}
     </section>
+    </div>
    
   )
 }
