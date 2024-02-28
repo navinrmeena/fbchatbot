@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 function SignUp() {
   return (
@@ -15,7 +14,7 @@ function SignUp() {
               htmlFor="name"
               className="block mb-2 text-sm font-medium text-gray-900"
             >
-              Name
+              Name  
             </label>
             <input
               type="text"
@@ -85,12 +84,12 @@ function SignUp() {
           </button>
           <p className="text-sm font-light text-gray-500 dark:text-gray-400">
             Already have an account?{" "}
-            <Link
-              to="/"
+            <a
+              href="./login"
               className="font-medium text-primary-600 hover:underline dark:text-primary-500"
             >
               Log in
-            </Link>
+            </a>
           </p>
         </form>
       </div>
